@@ -1,5 +1,7 @@
 import React, { useRef } from 'react'
 import { fizzbuzzLogic } from './fizzbuzz'
+import Button from '../Button'
+import InputField from '../InputField'
 
 const Solver = () => {
 
@@ -16,10 +18,10 @@ const Solver = () => {
   }
 
   return (
-    <div>
-      <h1>Fizz Buzz reverse solver</h1>
-      <input ref={inputFieldRef} />
-      <button onMouseDown={handleButtonPress}>Løs fizz buzz</button>
+    <div className={'space'}>
+      <h1>Fizz buzz reverse solver</h1>
+      <InputField innerRef={inputFieldRef} />
+      <Button text={'Løs fizz buzz'} onClick={handleButtonPress} />
     </div>
   )
 }

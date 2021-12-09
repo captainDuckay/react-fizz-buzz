@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { fizzbuzzLogic } from './fizzbuzz'
+import Button from '../Button'
 
 const FizzBuzz = () => {
 
@@ -9,11 +10,11 @@ const FizzBuzz = () => {
   const resetCount = () => setCount(1)
 
   return (
-    <div>
+    <div className={'space'}>
       <h1>Fizz buzz</h1>
       <p>{fizzbuzzLogic(count)}</p>
-      <button onClick={incrementCount}>Næste</button>
-      <button onClick={resetCount}>Forfra</button>
+      <Button onClick={incrementCount} text={'Næste'}/>
+      <Button onClick={resetCount} text={'Forfra'}/>
     </div>
   )
 }

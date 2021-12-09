@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import FizzBuzz from './components/FizzBuzz'
 import Solver from './components/FizzBuzz/Solver'
-import CatFacts from './components/CatFacts'
+import RandomQuotes from './components/RandomQuotes'
 
 const App = () => {
 
@@ -23,9 +23,9 @@ const App = () => {
           Learn React
         </a>
       </header>
-      <FizzBuzz/>
+      <FizzBuzz />
       <Solver />
-      <CatFacts />
+      <RandomQuotes />
     </div>
   );
 }

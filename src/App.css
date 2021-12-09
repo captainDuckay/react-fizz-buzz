@@ -3,6 +3,10 @@
 
 }
 
+body {
+  background-color: #E5F3FA;
+}
+
 .App-logo {
   height: 10vmin;
   pointer-events: none;
@@ -42,4 +46,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  font-family: "Scene Std", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.space {
+  margin: 50px 0px;
 }
