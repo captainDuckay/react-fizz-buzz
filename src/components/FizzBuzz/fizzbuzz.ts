@@ -7,7 +7,7 @@ export const fizzbuzzLogic = (count:number) => {
   } else if(count % 3 === 0) {
     return 'fizz'
   } else {
-    return count
+    return count.toString()
   }
 
 }

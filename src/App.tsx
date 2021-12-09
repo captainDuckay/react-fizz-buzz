@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import FizzBuzz from './components/FizzBuzz'
+import Solver from './components/FizzBuzz/Solver'
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
         </a>
       </header>
       <FizzBuzz/>
+      <Solver />
     </div>
   );
 }
