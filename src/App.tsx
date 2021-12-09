@@ -3,10 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import FizzBuzz from './components/FizzBuzz'
 import Solver from './components/FizzBuzz/Solver'
+import CatFacts from './components/CatFacts'
 
 const App = () => {
-
-
 
   return (
     <div className="App">
@@ -26,6 +25,7 @@ const App = () => {
       </header>
       <FizzBuzz/>
       <Solver />
+      <CatFacts />
     </div>
   );
 }
