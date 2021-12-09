@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import FizzBuzz from './components/FizzBuzz'
 
-function App() {
+const App = () => {
+
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +23,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <FizzBuzz/>
     </div>
   );
 }
