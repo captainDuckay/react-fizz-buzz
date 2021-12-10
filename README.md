@@ -4,11 +4,16 @@ This is a web based fizz buzz application that also have a random quote gatherer
 In order to run this code, one must have these programs installed:
 * Node.js >= 16.0
 * yarn >= 1.22
+
+### Download dependencies
+In order for the project to run, dependencies needs to be downloaded. It's done with this command:
+
+`yarn install`
 ## Run the program
 
 In the project directory, you can run:
 
-### `yarn start`
+`yarn start`
 
 Runs the app
 
