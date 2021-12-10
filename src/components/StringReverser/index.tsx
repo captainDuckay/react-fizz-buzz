@@ -18,7 +18,7 @@ const StringReverser = () => {
     <div className={'space'}>
       <h1>String reverser</h1>
       <InputField innerRef={inputFieldRef} />
-      <Button text={'Løs fizz buzz'} onClick={handleButtonPress} />
+      <Button text={'Reverse string'} onClick={handleButtonPress} />
     </div>
   )
 }
