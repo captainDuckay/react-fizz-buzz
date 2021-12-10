@@ -1,4 +1,4 @@
-# DFD - Fizz buzz project
+# React - Fizz buzz project
 This is a web based fizz buzz application that also have a random quote gatherer from a public api.
 ## Requirements
 In order to run this code, one must have these programs installed:
